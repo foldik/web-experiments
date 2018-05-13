@@ -12,9 +12,9 @@
 
 @media only screen and (max-width: 810px) {
   .example-4 {
-    width: 500px;
+    width: 300px;
     min-height: 0px !important;
-    height: 500px;
+    height: 300px;
   }
 }
 
