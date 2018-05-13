@@ -8,8 +8,9 @@ html {
 }
 
 .container {
+  
 }
 
-.container>div {
-  height: 100vh;
+.container>div{
+  min-height: 100vh;
 }
