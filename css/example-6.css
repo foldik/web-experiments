@@ -1,0 +1,38 @@
+.example-6 {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: auto 1fr auto 1fr;
+}
+
+.example-6>h1 {
+    grid-row: 1 / 2;
+    grid-column: 1 / -1;
+    transition: all 1s;
+}
+
+.example-6>div {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    border-radius: 3px;
+    transition: all 1s;
+}
+
+.example-6>div>p {
+    position: absolute;
+    text-align: center;
+    height: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
