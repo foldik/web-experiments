@@ -1,42 +1,42 @@
 .example-3 {
-  padding: 2rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 1rem;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
 }
 
 .example-3>.column {
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  border-radius: 2px;
-  padding: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 2px;
+    padding: 1rem;
 }
 
 .example-3>.column>.title {
-  padding: 0.5rem 1rem 1rem;
-  margin-bottom: 1rem;
-  border-bottom: 2px solid #0277BD;
+    padding: 0.5rem 1rem 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #0277BD;
 }
 
 .example-3>.column>.title.border-bottom-green {
-  border-bottom: 2px solid #64DD17;
+    border-bottom: 2px solid #64DD17;
 }
 
 .example-3>.column>.card {
-  display: block;
-  width: 100%;
-  padding: 0.5rem 0.75rem;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  border-radius: 2px;
-  margin-bottom: 1rem;
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 2px;
+    margin-bottom: 1rem;
 }
 
 .example-3>.column>.card>.card-title {
-  font-size: 1.2rem;
-  padding-bottom: 0.4rem;
+    font-size: 1.2rem;
+    padding-bottom: 0.4rem;
 }
 
 .example-3>.column>.card>.card-subheader {
-  font-size: 0.9rem;
-  font-weight: 300;
-  font-style: italic;
+    font-size: 0.9rem;
+    font-weight: 300;
+    font-style: italic;
 }
