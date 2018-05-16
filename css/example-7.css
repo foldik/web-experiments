@@ -13,16 +13,15 @@
 @media only screen and (max-width: 810px) {
     .example-7 {
         grid-template-columns: 200px;
+        font-size: 1.7rem;
     }
-
     .example-7>.card {
-        height: 100px !important;
-        line-height: 100px !important;
+        height: 80px !important;
+        line-height: 80px !important;
     }
-
     .example-7>.operator {
-        height: 100px !important;
-        line-height: 100px !important;
+        height: 80px !important;
+        line-height: 80px !important;
     }
 }
 

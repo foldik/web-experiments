@@ -23,3 +23,10 @@ html {
     background-color: black;
     color: white;
 }
+
+@media only screen and (max-width: 810px) {
+    .section-title {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+}
