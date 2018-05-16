@@ -87,7 +87,9 @@
             board.appendChild( number2Holder )
             board.appendChild( equalSignHolder )
             board.appendChild( resultHolder )
-            resultHolder.focus()
+            if ( counter > 1 ) {
+                resultHolder.focus()
+            }
         }
 
         function isNumeric( n ) {
