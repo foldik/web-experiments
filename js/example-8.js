@@ -18,6 +18,7 @@
     helps.set('for', 'This is the <span class="keyword">for</span> cycle. You can do repeated tasks with it.')
     helps.set('println', 'This is the famous print line method. You can show messages in the console by using this method.')
     helps.set('foldik', 'This is me. I hope you liked this experiment. :)')
+    helps.set('"Hasselhoff"', '<img class="hasselhoff" src="gifs/hasselhoff.gif"></img>')
 
     const splitter = {
         split: function ( code ) {
