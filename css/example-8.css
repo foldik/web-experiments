@@ -1,0 +1,68 @@
+.example-8 {
+    display: grid;
+    padding: 2rem;
+    color: white;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-content: center;
+}
+
+.code-container {
+    position: relative;
+}
+
+pre {
+    padding: 1.5rem;
+    line-height: 1.2rem;
+    background-color: #212121;
+}
+
+.help {
+    background-color: #F5F5F5;
+    color: black;
+    position: absolute;
+    visibility: hidden;
+    max-width: 500px;
+    padding: 1rem;
+    opacity: 0;
+    border: 1px solid white;
+    transition: visibility 0s, opacity 0.23s;
+}
+
+.help>p.message-title {
+    display: inline-block;
+    background-color: #212121;
+    color: #F5F5F5;
+    padding: 0.5rem;
+    line-height: 1.4rem;
+}
+
+.help>p {
+    padding: 0.5rem 0;
+    line-height: 1.4rem;
+}
+
+.help.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.language-java {
+    font-family: monospace, sans-serif;
+}
+
+.keyword, .semicolon {
+    color: #F57C00 !important;
+}
+
+.string {
+    color: #2E7D32 !important;
+}
+
+.annotation {
+    color: #FFEB3B !important;
+}
+
+.number {
+    color: #40C4FF !important;
+}

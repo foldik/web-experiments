@@ -15,14 +15,35 @@
     <link rel="stylesheet" href="css/example-5.css">
     <link rel="stylesheet" href="css/example-6.css">
     <link rel="stylesheet" href="css/example-7.css">
+    <link rel="stylesheet" href="css/example-8.css">
 </head>
 
 <body>
     <div class="container">
 
-        <h1 class="section-title">Guess with 5% precision</h1>
+        <h1 class="section-title">Syntax highlight (click on the code)</h1>
+        <div class="example-8">
+            <div class="code-container">
+                <div class="help"></div>
+                <pre><code class="language-java">package foldik.hello;
+
+import foldik.hello.annotations.Great;
+
+@Great(why = "Just because")
+public class Main {
+
+    public static void main(String[] args) {
+        for (int i = 0; i < 10; i++) {
+            System.out.println("Hello World! #" + i);
+        }
+    }
+} </code></pre>
+            </div>
+        </div>
+
+        <h1 id="guess-with-5-percent" class="section-title">Guess with 5% precision</h1>
         <div class="example-7">
-            
+
         </div>
 
         <div class="example-6">
@@ -199,6 +220,7 @@
     <script src="js/example-1.js"></script>
     <script src="js/example-6.js"></script>
     <script src="js/example-7.js"></script>
+    <script src="js/example-8.js"></script>
 </body>
 
 </html>

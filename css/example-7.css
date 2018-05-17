@@ -4,7 +4,6 @@
     font-size: 2.5rem;
     padding: 2rem 0 0;
     grid-template-columns: repeat(auto-fill, 200px);
-    justify-content: center;
     grid-row-gap: 2rem;
     justify-content: center;
     align-content: flex-start;
