@@ -16,7 +16,7 @@
     helps.set('String', 'String is a data type for text. You can store bare text in these kind of variables.')
     helps.set('void', 'When you want a method to return nothing then you can use the <span class="keyword">void</span> keyword.')
     helps.set('for', 'This is the <span class="keyword">for</span> cycle. You can do repeated tasks with it.')
-    helps.set('println', 'This is teh famous print line method. You can show messages in the console by using this method.')
+    helps.set('println', 'This is the famous print line method. You can show messages in the console by using this method.')
     helps.set('foldik', 'This is me. I hope you liked this experiment. :)')
 
     const splitter = {
